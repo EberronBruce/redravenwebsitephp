@@ -1,0 +1,168 @@
+body {
+    background-color:#050505;
+    background-image:url("../image/background.png");
+    color:#FAFAFA;
+    margin:0;
+    padding:0;
+}
+.container {
+    margin: 0 auto;
+    width:1000px;
+    padding:0;
+}
+
+.clear {
+    clear:both;
+}
+
+header {
+    padding:0;
+    margin:0;
+    height:270px;
+    width:100%;
+}
+
+
+
+.mainlogo { 
+    position:relative;
+    left:50%;
+    right:50%;
+    width: 500px;
+    margin-left:-250px;
+    z-index: 100;
+    pointer-events: none;
+    top:15px;
+}
+
+#topNav {
+    background-color:rgba(105,105,105,0.3);
+    height: 50px;
+    width:100%;
+    border-radius: 30px;
+    z-index: 50;
+    position: relative;
+    left:50%;
+    margin-left:-500px;
+    right:50%;
+    top:-45px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+#topNav li {
+    float:left;
+    padding-left: 15px;
+}
+
+#topNav a {
+    color:#FAFAFA;
+    font-family: 'Brush Script MT',Vivaldi, cursive;
+    font-size:2.6em;
+    text-decoration: none;
+    position:static;
+    top:-4px;
+    padding:0;
+    margin:0 15px;
+    z-index: 200;
+}
+
+#topNav a:hover {
+    color:#A00000;
+    text-decoration:underline;
+}
+
+
+#topNav #navstud {
+    margin-left: 100px;  
+}
+
+
+#navleftimg {
+    padding-left: 20px;
+    padding-right:10px;
+    float:left;
+}
+
+#navrightimg {
+   padding-right: 20px;
+   float:right;
+}
+
+section{
+    margin:0;
+    padding-top:0;
+    background-color:rgba(15,15,15,0.6);
+    border-radius: 25px;
+    width:100%;
+    padding-bottom:50px;
+    float:left;   
+}
+
+#homeArticle {
+    width:55%;
+    float:left;
+    padding:0 20px;
+    margin:0 auto;
+}
+
+.homeSection h1 {
+    font-family: 'Brush Script MT',Vivaldi, cursive;
+    text-decoration: underline;
+    font-size: 45px;
+    text-align: center;
+}
+
+.homeSection p {
+    font-family: 'Courier New',Courier,monospace;
+}
+
+.raven {
+    width:40%;
+    height:450px;
+    text-align: center;
+    float:left;
+    padding:0;
+    margin:0;   
+}
+
+#bigraven {
+   width: 300px;
+   padding-top: 50px;
+}
+
+footer {    
+    width:100%;
+}
+
+.navFooter {
+    padding-top:30px;
+    width:100%;
+    font-family: 'Courier New',Courier,monospace;
+    color:#FAFAFA; 
+}
+
+#copyright {
+    float:left;
+    margin-right: 150px;
+}
+
+.footerList {
+    padding-bottom: 20px;
+}
+
+.footerList li{
+    float:left;
+}
+
+footer a {
+    color:#FAFAFA;
+    float:right;
+    padding-right: 20px;
+}
+
+footer a:hover{
+    color:#A00000;
+}
