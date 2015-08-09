@@ -21,6 +21,7 @@
                         <li><a id="navstud" href="/aboutstudios" title="About the Studios">About the Studios</a></li>
                         <li><a id="navcontact" href="/contactus" title="Contact Us">Contact Us</a></li>
                     </ul>
+                    <div class="clear"></div>
                     <img  id="navrightimg" src="image/navrightraven.png" alt="Right Red Raven" />
                 </nav>
                 <div class="clear"></div>
@@ -50,5 +51,8 @@
     <script src="/js/jquery-1.11.3.min.js"></script>
     <script src="/js/jquery-ui.min.js"></script>
     <script src="/js/pagechange.js"></script>
+    <script src="/js/navbar.js"></script>
+     
+    
     </body>
 </html>
