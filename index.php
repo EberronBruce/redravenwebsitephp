@@ -10,7 +10,7 @@
     
     $page = 'home';
     
-$uri = $_SERVER['REQUEST_URI'];
+$uri = filter_input(INPUT_SERVER, 'REQUEST_URI');
 
 if(!empty($uri)) {
     $first = substr($uri, 0, 1);
