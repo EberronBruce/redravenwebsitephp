@@ -54,12 +54,13 @@
         <p>Email:</p>
         <p><a href="mailto:public@redravencomputing.com?subject=Contact">public@redravencomputing.com</a></p>
         <br />
-        <p>Visit us:</p>
-        <p>
-            <a href="">Twitter</a> <br />
-            <a href="">Facebook</a><br />
-            <a href="">LinkedIn</a><br />
-        </p>
+        <p>Visit us at:</p>
+        <figure class="social">
+            <a href="https://twitter.com/Raven_Computing" target="_blank"><img class="social-icon" src="image/twitter.png" alt="Twitter" /></a> 
+            <a href=""><img class="social-icon" src="image/facebook.png" alt="Facebook" /></a> 
+            <a href=""><img class="social-icon" src="image/linkedin.png" alt="LinkedIn" /></a> 
+            
+        </figure>
    
         
     </article>

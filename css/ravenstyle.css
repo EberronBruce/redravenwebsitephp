@@ -266,11 +266,24 @@ footer a:hover{
     float:left;
 }
 
-.contactus .err {
+.err {
     display: none;
     background-color: red;
     float:right;
     width:250px;
     margin-right:50px;
     border-radius: 20px;
+}
+
+.social {
+    text-align: center;
+}
+
+a .social-icon {
+    height: 50px;
+    padding: 0px 15px;
+    display: inline;
+    float: left;
+
+    
 }

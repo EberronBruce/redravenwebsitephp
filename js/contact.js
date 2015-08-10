@@ -27,7 +27,7 @@ $("#msgbtn").click(function(e){
     }
     
     if(errors === "") {
-        alert("everything checks");
+        //alert("everything checks");
     } else {
         e.preventDefault();
         $('.err').css('display','block');

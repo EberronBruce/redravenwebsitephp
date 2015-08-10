@@ -16,7 +16,7 @@
 	 }
          
          if(!$error) {
-             if (mail("bruce@redravencomputing.com", "Message from website!", 
+             if(mail("bruce@redravencomputing.com", "Message from website!", 
                      
                 "Name: ".$_POST['name']."
 
@@ -25,18 +25,20 @@
                 Message: ".$_POST['message'])) {
                  
                 header("Location: /messagesent");
-                die();
+                
                  
              }else {
-                 echo "Sorry, there was an error sending your message. Please try again later.";
+                header("Location: /messagefail");
+               
              }
              
          } else {
-             echo "There were errors in the form that passed check";
+             header("Location: /messagefail");
+             
          }
           
          
-          
+        die();
       }
 
-?>
+
