@@ -34,3 +34,4 @@ if(!empty($_GET['ajax'])) {
 } else {
     require_once('template/template.php');
 }
+

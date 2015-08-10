@@ -16,10 +16,10 @@
                 <nav id="topNav">
                     <img id="navleftimg" src="image/navleftraven.png" alt="Left Red Raven" />
                     <ul id="navlist">
-                        <li><a id="navhome"  href="/" title="Home">Home</a></li>
-                        <li><a id="navproj" href="/projects" title="Projects">Projects</a></li>
-                        <li><a id="navstud" href="/aboutstudios" title="About the Studios">About the Studios</a></li>
-                        <li><a id="navcontact" href="/contactus" title="Contact Us">Contact Us</a></li>
+                        <li><a class="nav-item" id="navhome"  href="/" title="Home">Home</a></li>
+                        <li><a class="nav-item" id="navproj" href="/projects" title="Projects">Projects</a></li>
+                        <li><a class="nav-item" id="navstud" href="/aboutstudios" title="About the Studios">About the Studios</a></li>
+                        <li><a class="nav-item" id="navcontact" href="/contactus" title="Contact Us">Contact Us</a></li>
                     </ul>
                     <div class="clear"></div>
                     <img  id="navrightimg" src="image/navrightraven.png" alt="Right Red Raven" />
@@ -53,6 +53,11 @@
     <script src="/js/pagechange.js"></script>
     <script src="/js/navbar.js"></script>
      
+    <script>
+        
+        
+    
+    </script>
     
     </body>
 </html>
