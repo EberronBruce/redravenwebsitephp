@@ -22,7 +22,7 @@ var systemObject = {
         jQuery.getJSON(url, {ajax : 1}, function(data){
             jQuery.each(data, function(k, v) {
                 $('#' + k + ' section').hide("drop",500, function() {
-                    $(this).replaceWith($(v).hide().fadeIn(500));
+                    $(this).replaceWith($(v).hide().fadeIn(1500));
                 });
             });
         });

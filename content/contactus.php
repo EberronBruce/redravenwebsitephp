@@ -1,8 +1,5 @@
-<?php include("classes/SendEmail.php"); ?>
-
-
-<section class="contactus" <?php if($error) {echo 'style="display:none;"';}?>>
-    
+<section>
+<div class="contactus">
     <h1> Contact Us </h1>
     <p class="contact-content">If you have any questions and you just want to chat about something then this is the place to reach us. 
     You can either fill out the form or use the information on this page to send us a message. We will love to hear
@@ -57,8 +54,8 @@
         <p>Visit us at:</p>
         <figure class="social">
             <a href="https://twitter.com/Raven_Computing" target="_blank"><img class="social-icon" src="image/twitter.png" alt="Twitter" /></a> 
-            <a href=""><img class="social-icon" src="image/facebook.png" alt="Facebook" /></a> 
-            <a href=""><img class="social-icon" src="image/linkedin.png" alt="LinkedIn" /></a> 
+            <!--<a href=""><img class="social-icon" src="image/facebook.png" alt="Facebook" /></a> 
+            <a href=""><img class="social-icon" src="image/linkedin.png" alt="LinkedIn" /></a> -->
             
         </figure>
    
@@ -70,6 +67,9 @@
     </div>
     
     <div class="clear"></div>
+    
+</div>
  
+   <script src="/js/contact.js"></script>
 </section>
-<script src="/js/contact.js"></script>
+

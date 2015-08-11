@@ -16,13 +16,13 @@
 	 }
          
          if(!$error) {
-             if(mail("bruce@redravencomputing.com", "Message from website!", 
+             if(mail("public@redravencomputing.com", "Message from website!", 
                      
-                "Name: ".$_POST['name']."
-
-                Email: ".$_POST['email']."
-
-                Message: ".$_POST['message'])) {
+                "Name: ".$_POST['name'].
+                
+                "\r\nEmail: ".$_POST['email']."\r\n".
+                    
+                "\r\nMessage:\r\n ".$_POST['message'])) {
                  
                 header("Location: /messagesent");
                 

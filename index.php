@@ -1,5 +1,8 @@
 <?php
-    
+        
+    include("classes/SendEmail.php");
+
+
     defined("DS")
         || define("DS", DIRECTORY_SEPARATOR);
     
@@ -10,7 +13,7 @@
     
     $page = 'home';
     
-$uri = filter_input(INPUT_SERVER, 'REQUEST_URI');
+$uri = $_SERVER['REQUEST_URI'];
 
 if(!empty($uri)) {
     $first = substr($uri, 0, 1);
