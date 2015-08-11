@@ -4,7 +4,7 @@
 <section class="contactus" <?php if($error) {echo 'style="display:none;"';}?>>
     
     <h1> Contact Us </h1>
-    <p>If you have any questions and you just want to chat about something then this is the place to reach us. 
+    <p class="contact-content">If you have any questions and you just want to chat about something then this is the place to reach us. 
     You can either fill out the form or use the information on this page to send us a message. We will love to hear
     from you and will get back to you as soon as we can.</p>
     			 	
@@ -52,7 +52,7 @@
         </p>
         <br />
         <p>Email:</p>
-        <p><a href="mailto:public@redravencomputing.com?subject=Contact">public@redravencomputing.com</a></p>
+        <p><a id="email-info" href="mailto:public@redravencomputing.com?subject=Contact">public@redravencomputing.com</a></p>
         <br />
         <p>Visit us at:</p>
         <figure class="social">

@@ -266,13 +266,20 @@ footer a:hover{
     float:left;
 }
 
+.contact-content {
+    margin:0px 100px;
+    
+}
+
 .err {
     display: none;
     background-color: red;
-    float:right;
+    float:left;
     width:250px;
     margin-right:50px;
     border-radius: 20px;
+    margin-top:20px;
+    
 }
 
 .social {
@@ -284,4 +291,8 @@ a .social-icon {
     padding: 0px 15px;
     display: inline;
     float: left;
+    padding-bottom: 20px;}
+
+#email-info {
+    color: #FAFAFA;
 }

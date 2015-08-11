@@ -13,7 +13,7 @@ $("#msgbtn").click(function(e){
     var emailtest = IsEmail($("#email").val());
     
     if(!emailtest) {
-        errors += "<p>Please check the Email address </p> ";
+        errors += "<p>Please check your Email Address </p> ";
         //e.preventDefault();
         //$('.err').css('display','block');
         //$('.err').append("<p>There is a mistake with the email.</p>");
