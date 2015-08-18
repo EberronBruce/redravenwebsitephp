@@ -146,6 +146,7 @@ section{
 
 footer {    
     width:100%;
+    padding-bottom: 10px;
 }
 
 .navFooter {
@@ -176,6 +177,10 @@ footer a {
 
 footer a:hover{
     color:#A00000;
+}
+
+h2 {
+   font-family: 'Courier New',Courier,monospace; 
 }
 
 /*----------------Contact Page----------------------------*/
@@ -296,9 +301,8 @@ a .social-icon {
 #email-info {
     color: #FAFAFA;
 }
-
+/*----------------Studio Page----------------------------*/
 .portrait {
-    //height:200px;
     width: 225px;
     float: left;
     padding-right: 25px;
@@ -328,7 +332,7 @@ a .social-icon {
 }
 
 .pic {
-    padding: 0px;
+    padding: 0px 0px 0px 40px;
     width: 250px;
     float: left;
 }
@@ -355,5 +359,11 @@ a .social-icon {
 }
 
 .studio {
-    padding: 0px 70px;
+    padding: 0px 80px;
+}
+
+#studio h2 {
+    padding-bottom: 25px;
+    font-size: 1.7em;
+    margin: 0px;
 }

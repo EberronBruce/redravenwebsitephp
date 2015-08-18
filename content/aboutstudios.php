@@ -22,8 +22,11 @@
     
     
     <h1>Meet Our Team</h1>
+    
     <figure class="pic">
+        <h2>Bruce Burgess</h2>
         <img src="image/bruce.jpg" alt="Picture of Bruce" class="portrait" />
+        
         <button class="profilebtn">
              <img class="leftraven" src="image/navleftraven.png" alt="Left Red Raven" />
              View My Profile
@@ -57,8 +60,6 @@
         studied about user experience design as well. I am particular interested
         in getting into ubiquitous computing development which my education can
         really help in.</p>
-        
-        
     </article>
     
     </div>

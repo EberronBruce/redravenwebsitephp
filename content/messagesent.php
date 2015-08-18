@@ -1,4 +1,4 @@
-<section>
+<section style="height: 600px">
     <figure class="raven">
         <img id="bigraven" src="image/raven.png" alt="A Big Red Raven" /> 
     </figure>
