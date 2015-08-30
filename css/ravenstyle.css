@@ -15,6 +15,11 @@ body {
     clear:both;
 }
 
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
 header {
     padding:0;
     margin:0;
@@ -227,6 +232,7 @@ hr {
 .contactus .contact-message {
     padding: 0px 10px;
     height: 250px;
+    resize: none;
 }
 
 .contactus .contact-input:focus{
@@ -312,7 +318,7 @@ a .social-icon {
     float: left;
     font-size:1.0em;
     text-align: center;
-    padding:10px 10px; 
+    padding:10px 5px; 
     background:rgba(200,200,200,0.7); 
     border:0 none;
     cursor:pointer;
@@ -366,4 +372,14 @@ a .social-icon {
     padding-bottom: 25px;
     font-size: 1.7em;
     margin: 0px;
+}
+
+/*-------------------Home---------------------------*/
+#introvid {
+   border-radius: 10px;
+   outline:none;
+}
+
+#introvid:active {
+   outline:none;   
 }
