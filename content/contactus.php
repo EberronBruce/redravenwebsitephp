@@ -15,17 +15,17 @@
         
         <div class="form-group">
             <label for="name" class="label">Your Name:</label>
-            <input type="text" name="name" id="name" class="contact-input" placeholder="Your Name Here" value="<?php echo filter_input(INPUT_POST, 'name'); ?>" />
+            <input type="text" name="name" id="name" class="contact-input" placeholder="Your Name Here" value="<?php echo filter_input(INPUT_POST, 'name'); ?>" required/>
         </div>
         
         <div class="form-group">
             <label for="email" class="label">Your Email:</label>
-            <input type="email" name="email" id="email" class="contact-input" placeholder="Your Email Here" value="<?php echo filter_input(INPUT_POST, 'email'); ?>" />
+            <input type="email" name="email" id="email" class="contact-input" placeholder="Your Email Here" value="<?php echo filter_input(INPUT_POST, 'email'); ?>" required/>
         </div>
         
         <div class="form-group">
             <label for="message" class="label">Your Message:</label>
-            <textarea name="message" id="msg" class="contact-input contact-message" placeholder="Your Message Here"><?php echo filter_input(INPUT_POST, 'message'); ?></textarea>
+            <textarea name="message" id="msg" class="contact-input contact-message" placeholder="Your Message Here" required><?php echo filter_input(INPUT_POST, 'message'); ?></textarea>
         </div>
            
             
