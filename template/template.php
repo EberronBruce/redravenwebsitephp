@@ -13,18 +13,19 @@
         
             <header>
                 <img class="mainlogo" src="image/logo.png" alt="Red Raven Computing Studious" />
+                
                 <nav id="topNav">
-                    <img id="navleftimg" src="image/navleftraven.png" alt="Left Red Raven" />
-                    <ul id="navlist">
+       
+                    <ul id="navlist" class="center">
                         <li><a class="nav-item" id="navhome"  href="/" title="Home">Home</a></li>
                         <li><a class="nav-item" id="navproj" href="/projects" title="Projects">Projects</a></li>
-                        <li><a class="nav-item" id="navstud" href="/aboutstudios" title="About the Studios">About the Studios</a></li>
+                        <li><a class="nav-item" id="navstud" href="/aboutstudios" title="About Us">About Us</a></li>
                         <li><a class="nav-item" id="navcontact" href="/contactus" title="Contact Us">Contact Us</a></li>
+                        <li><a class="nav-item" id="navblog" href="/" title="Blog">Blog</a></li>
                     </ul>
-                    <div class="clear"></div>
-                    <img  id="navrightimg" src="image/navrightraven.png" alt="Right Red Raven" />
+           
                 </nav>
-                <div class="clear"></div>
+                
             </header>
             <div class="homeSection" id="sect">
                 <!-- Insert the code in here to replace the content -->
@@ -37,10 +38,10 @@
                 <nav class="navFooter"> 
                     <ul class="footerList">
                         <li id="copyright">&copy;Red Raven Computing Studios 2015</li>
-                        <li><a href="/" title="Home">Home</a></li>
-                        <li><a href="/projects" title="Projects">Projects</a></li>
-                        <li><a href="/aboutstudios" title="About the Studios">About the Studios</a></li>
-                        <li><a href="/contactus" title="Contact Us">Contact Us</a></li>
+                        <li><a href="#" title="Privacy">Privacy</a></li>
+                        <li><a href="#" title="Disclaimer">Disclaimer</a></li>
+                        <li><a href="#" title="Terms and Conditions">Terms and Conditions</a></li>
+                        <li><a href="#" title="Copyright">Copyright</a></li>
                     </ul>
                 </nav>
             </footer>

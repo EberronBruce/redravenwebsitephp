@@ -27,16 +27,21 @@
         <h2>Bruce Burgess</h2>
         <img src="image/bruce.jpg" alt="Picture of Bruce" class="portrait" />
         
-        <button class="profilebtn">
-             <img class="leftraven" src="image/navleftraven.png" alt="Left Red Raven" />
-             View My Profile
-             <img  class="rightraven" src="image/navrightraven.png" alt="Right Red Raven" />
-        </button>       
-        <button class="profilebtn">
-            <img class="leftraven" src="image/navleftraven.png" alt="Left Red Raven" />
-            &nbsp;View My Blog&nbsp;
-            <img  class="rightraven" src="image/navrightraven.png" alt="Right Red Raven" />
-        </button>
+        <a href="http://www.redravencomputing.com/blog/" target="_blank">
+            <button class="profilebtn">
+                <img class="leftraven" src="image/navleftraven.png" alt="Left Red Raven" />
+                View My Profile
+                <img  class="rightraven" src="image/navrightraven.png" alt="Right Red Raven" />
+            </button>
+        </a>
+        
+        <a href="http://www.redravencomputing.com/blog/" target="_blank">
+            <button class="profilebtn">
+                <img class="leftraven" src="image/navleftraven.png" alt="Left Red Raven" />
+                &nbsp;View My Blog&nbsp;
+                <img  class="rightraven" src="image/navrightraven.png" alt="Right Red Raven" />
+            </button>
+        </a>
         <br />
     </figure>
     <article class="team">
